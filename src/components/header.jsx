@@ -90,10 +90,7 @@ const Header = () => {
               <DropdownMenuItem
                 onSelect={(e) => {
                   e.preventDefault();
-                  window.open(
-                    "https://github.com/yourusername/yourrepo",
-                    "_blank"
-                  );
+                  window.open("https://github.com/1k24bytes", "_blank");
                 }}
                 className="flex items-center gap-2 cursor-pointer group"
               >
